@@ -11,4 +11,4 @@ WORKDIR /app
 
 COPY ./entrypoint.sh /
 ENTRYPOINT ["sh", "/entrypoint.sh"]
-CMD [ "gunicorn","django_project.wsgi:application","--bind","0.0.0.0:8000"]
+# CMD [ "gunicorn","django_project.wsgi:application","--bind","0.0.0.0:8000"]
