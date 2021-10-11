@@ -1,7 +1,9 @@
-version: "3"
+version: "3.7"
 services:
   web:
     image: nfor/auto_deploy
+    environment:
+    - SECRET_KEY='c_r-e8v1divj8y+hu@-w=n#$xj#ciuejybd3_(k2h789(mcv8$'
     expose:
       - "80"
   watchtower:
